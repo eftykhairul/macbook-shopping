@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Shopping</title>
+    <!-- Css script -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap script -->
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <main>
+        <section class="container d-flex justify-content-center">
+            <div>
+                <img class="photo" src="images/mac.png" alt="">
+            </div>
+            <div>
+                <h1 class="heading">Cusmtomize your Blue 24-inch iMac with Apple M1 chip</h1>
+                <p class="heading">Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports Magic Mouse Magic Keyboard - US English</p>
+                <!-- Memory section -->
+                <section class="all-button ">
+                    <h4>Memory</h4>
+                    <div class="d-flex">
+                        <div class="memory-storage">
+                            <button id="eight-gb">8Gb unified memory </button>
+                        </div>
+                        <div class="memory-storage">
+                            <button id="sixteen-gb">16Gb unified memory</button>
+                        </div>
+                    </div>
+                </section>
+                <!-- storage section -->
+                <section class="all-button ">
+                    <h4>Storage</h4>
+                    <div class="d-flex">
+                        <div class="memory-storage">
+                            <button id="storage-low">256Gb SSD storage </button>
+                        </div>
+                        <div class="memory-storage">
+                            <button id="storage-medium">512Gb SSD storage </button>
+                        </div>
+                        <div class="memory-storage">
+                            <button id="storage-high">1TB SSD storage </button>
+                        </div>
+                    </div>
+                </section>
+                <!-- Delivery section -->
+                <section class="all-button ">
+                    <h4>Choose your delivery option</h4>
+                    <div class="d-flex">
+                        <div class="memory-storage">
+                            <button id="free-delivery">Friday, Aug 25 FREE Prime Delivery </button>
+                        </div>
+                        <div class="memory-storage">
+                            <button id="paid-delivery">Friday, Aug 21 Delivery Charge $20</button>
+                        </div>
+                    </div>
+                </section>
+                <!-- pricing -->
+                <section>
+                    <div>
+                        <div class="d-flex">
+                            <div class="pricing">
+                                <h5 class="head">Best Price</h5>
+                            </div>
+                            <div class="pricing">
+                                <h5 class="price1">$ <span>1299</span></h5>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div>
+                        <div class="d-flex">
+                            <div class="pricing">
+                                <h5 class="head">Extra Memory cost</h5>
+                            </div>
+                            <div class="pricing">
+                                <h5 class="price2">$ <span id="extra-memory">0</span></h5>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div>
+                        <div class="d-flex">
+                            <div class="pricing">
+                                <h5 class="head">Extra Storage cost</h5>
+                            </div>
+                            <div class="pricing">
+                                <h5 class="price3">$ <span id="extra-storage">0</span></h5>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div>
+                        <div class="d-flex">
+                            <div class="pricing">
+                                <h5 class="head">Delivery Charge</h5>
+                            </div>
+                            <div class="pricing">
+                                <h5 class="price4">$ <span id="extra-delivery">0</span></h5>
+                            </div>
+                        </div>
+                        <hr  class="style5">
+                    </div>
+                    <div>
+                        <div class="d-flex justify-items-stretch">
+                            <div class="pricing">
+                                <h5 class="head">Total Price</h5>
+                            </div>
+                            <div class="pricing justify-items-end">
+                                <h5 class="price5">$ <span id="total-cost">1299</span></h5>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    
+                </section>
+                <!-- promo code -->
+                <section>
+                    <div class="d-flex">
+                        <div>
+                            <input id="code" type="text">
+                        </div>
+                        <div>
+                            <button id="promo" class="button-colour">Apply</button>
+                        </div>
+                    </div>
+                </section>
+                
+
+            </div>
+            
+            
+
+        
+        </section>
+        <hr class="last-hr">
+        <h2 class="total-price">Total: $<span>1299</span></h2>
+    </main>
+    <!-- Javascript -->
+<script src="cart.js"></script>
+</body>
+
+</html>

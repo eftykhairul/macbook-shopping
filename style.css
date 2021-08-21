@@ -1,0 +1,67 @@
+/* image size */
+.photo{
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    margin-right: 30px;
+}
+/* container padding */
+.container{
+    padding: 20px;
+}
+/* heaading fixing */
+.heading{
+    width: 600px;
+    
+}
+/* Button margin and padding */
+.all-button{
+    padding: 15px;
+    
+}
+/* memory */
+.memory-storage {
+    padding: 3px;
+    margin-left: 5px;
+    margin: 5px;
+}
+/* pricing */
+.pricing{
+    margin-top: 20px;
+
+}
+.price1{
+    padding: 0 200px;
+}
+.price2{
+    padding: 0 120px;
+}
+.price3{
+    padding: 0 130px;
+}
+.price4{
+    padding: 0 150px;
+}
+.price5{
+    padding: 0 200px;
+}
+
+hr.style5{
+    border-top: 3px double #8c8b8b;
+    
+}
+hr.last-hr {
+    width:50%;
+    margin:0 auto;
+}
+/* Promo */
+.button-colour{
+    color: white;
+    background-color: coral;
+}
+/* total */
+.total-price{
+    text-align: center;
+}
+
+
